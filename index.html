@@ -3,16 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexcss.css">
     <title>Practica Despliegues</title>
+    <script>
+        window.onload=function (){
+            var img=document.getElementsByTagName("img")[0];
+                img.addEventListener("mouseover",function (){
+                    alert("te has posado sobre la imagen");
+                });
+        }
+    </script>
 </head>
 <body>
     <h1>Módulos de Desarrollo de Aplicaciones Web</h1>
-    <p>·Despliegue de aplicaciones web</p>
-    <p>·Desarrollo web en entorno cliente</p>
-    <p>·Ingles</p>
-    <p>·Desarrollo web en entorno servidor</p>	
-    <p>·EIE</p>
-    <p>·Interfaces</p>	
-	<p>·otro</p>
+    <div>
+        <p>·Despliegue de aplicaciones web</p>
+        <p>·Desarrollo web en entorno cliente</p>
+        <p>·Ingles</p>
+        <p>·Desarrollo web en entorno servidor</p>	
+        <p>·EIE</p>
+        <p>·Interfaces</p>	
+        <p>·otro</p>
+    </div>
+    <img src="./stars.jpg" alt="stars"><br>
+    <a href="indexphp.php">pagina php</a>
 </body>
 </html>
